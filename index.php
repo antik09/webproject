@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rent a M</title>
+		<html lang="de">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Ante Karačić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/png" href="image/bmw_logo_icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Russo+One|Yantramanav" rel="stylesheet"> 
+	</head>
+	<body>
+		<header id="header">
+			<img src="image/angel-eyes.png" width= 100% title="Angel Eyes">
+			<img class="imageBanner" src="image/mperformance.png" title="M Performance">
+			<div  style="width:100%">
+				<nav id="nav">
+					<ul>
+						<li><a href="index.php">HOME</a></li>
+						<li><a href="automobile.php">AUTOMOBILE</a></li>
+						<li><a href="anfragen.php">ANFRAGEN</a></li>						
+						<li><a href="m_rent.php">M RENT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<p class="nameR">
+				<?php 
+					include 'db_connect.php';
+					include 'sessionOnOff.php';
+
+					if($sessionOnOff == 1){
+						include 'session.php';
+						echo $user;
+						echo '</br><a class="abmeldenR"  href="session_destroy.php">Abmelden</a>';
+					}	
+				?>
+			</p>
+			<h1 class="h1Index">M POWER BMW ZUM MIETEN</h1>
+			<div class="divImage">
+				<figure>
+					<img src="image/m-power-logo.png" width= 100% title="M Power Logo">
+					<figcaption style="font-size:0.75rem">
+						Die BMW M GmbH ist ein 1972 als BMW Motorsport GmbH gegründetes Tochterunternehmen des Automobil- und Motorradherstellers BMW.
+					</figcaption>
+				</figure>
+			</div>
+			<div class="divImage1">
+				<figure>
+					<img src="image/m-power-logo.png" width= 100% title="M Power Logo">
+					<figcaption style="font-size:0.625rem">
+						Die BMW M GmbH ist ein 1972 als BMW Motorsport GmbH gegründetes Tochterunternehmen des Automobil- und Motorradherstellers BMW.
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<p>BMW, die bayrische Automobilmarke, ist schon ein wenig anders als andere. Sicher, alle führenden Luxusmarken in Deutschland haben sich der Spitzentechnologie, 
+				dem Luxus und der Höchstleistung verschrieben. Aber bei keiner Marke steht die Emotion, die Liebe zum sportlichen Fahren so sehr im Markenkern wie in der BMW Group. 
+				Bei aller Funktionalität soll es immer ein besonderes Erlebnis bleiben, einen BMW zu bewegen. Nicht Kraftstoffe, sondern Freude sollen einen BMW antreiben. 
+				Rent a M hat diese Idee gerne aufgenommen und offeriert zahlreiche BMW M Power Mietwagen. Freude am Fahren, so der BMW Slogan, steht über der reinen Funktionalität. 
+				Erst die Komposition aus Design, Motorenkraft, Sportlichkeit und Luxus macht ein echtes BMW Luxusauto aus. So gibt es keine BMW Nutzfahrzeuge, das würde nicht in 
+				das ganz durch Leidenschaft geprägte Markenkonzept passen. Wohl aber glänzt BMW seit vielen Jahren mit sportlichen Höchstleistungsmaschinen im Motorradbau.</P>
+				<p>Schon Anfang des 20. Jahrhunderts gegründet, avancierte BMW nach großen Erfolgen im Motorenbau wie bei der Entwicklung von Motorrädern um 1930 herum erstmals als 
+				Automobilhersteller und konzentrierte sich schnell auf sportliche Fahrzeuge. Große Erfolge bei Sportwagenrennen schufen das Fundament für das bis heute sportliche 
+				Image der BMW Sportwagen. Nach dem Krieg kehrte BMW in München mit aufsehenerregenden Oberklassewagen in den Automobilbau zurück. In den sechziger Jahren wurde die 
+				BMW AG mehrheitlich durch die Familie Quandt übernommen und sicherte die Eigenständigkeit. Mit großem Erfolg begann BMW, nun auch Wagen für die Mittelklasse zu 
+				produzieren. BMW wuchs von 21.000 auf heute über 100.000 Mitarbeiter und ist ein Global Player geworden. Beim Verkauf der Rover Gruppe behielt BMW den Mini und 
+				entwickelte ihn zum sportlichen Kultfahrzeug im Premiumsegment. Mit der Marke BMW i wurde das Konzept der Freude am Fahren auf Elektroautos übertragen. 
+				Bei Rent a M können Sie viele BMW M mieten und die Freude am Fahren erleben.</P>
+				<h2 class="hIndex">M POWER GESCHICHTE</h2>
+				<p>Eines der ersten Ergebnisse der M GmbH war der unter wesentlicher Mithilfe von Alpina gebaute erfolgreiche BMW 3.0 CSL, eine auf Leichtbau getrimmte Variante des 
+				BMW E9. Auf Basis des 1972 von BMW entwickelten Prototypen BMW Turbo wollte der Münchener Automobilhersteller dann einen Sportwagen produzieren, welcher vor allem für
+				die Teilnahme an Motorsport-Veranstaltungen vorgesehen war. Da zu diesem Zeitpunkt italienische Sportwagen den Rennsport dominierten, entschied man sich bei BMW 
+				zuerst, das Know-how des italienischen Sportwagenherstellers Lamborghini zu nutzen und das Modell dort entwickeln zu lassen. Allerdings führten kurz darauf 
+				industrielle Unstimmigkeiten zum Umdenken. BMW traf die Entscheidung, das Fahrzeug komplett in Eigenregie zu bauen, und gründete daraufhin 1972 die BMW Motorsport 
+				GmbH. Jochen Neerpasch leitete von 1973 bis 1979 als Vorsitzender der Geschäftsführung die BMW Motorsport GmbH. Rennsportkollege Martin Braungart, der im Frühjahr 
+				1972 zusammen mit Jochen Neerpasch in der Firma anfing, war von 1972 bis 1979 Technischer Leiter der BMW Motorsport GmbH und von 1977 bis 1979 als 
+				Projektverantwortlicher zuständig für die Gesamtentwicklung des Straßenfahrzeuges BMW M1, welches als Basisfahrzeug für künftige Renneinsätze vorgesehen war.
+				1992 wurde die Geschäftsgruppe BMW Individual in die BMW Motorsport GmbH integriert und 1993 erfolgte die Umbenennung des Unternehmens in BMW M GmbH, Gesellschaft 
+				für individuelle Automobile. </P>
+				<h3 class="hIndex">Erleben Sie die Vielfalt der Mietwagen von Rent a M</h3>
+				<p>Autovermietung bedeutet für uns mehr, als nur von A nach B zu kommen. Es geht um die Fahrt selbst, die Erlebnisse unterwegs, und die Fahrzeuge, in denen Sie die 
+				Welt erkunden. Ob Sie die wichtigsten Sehenswürdigkeiten besuchen möchten oder entlegene Geheimtipps, die nur mit dem Auto zu erreichen sind bietet der Autoverleih
+				Rent a M Ihnen den Schlüssel zur Welt. Wir verstehen, dass eine Lösung nicht für alle passt. Deshalb bieten wir eine große Auswahl an hochwertigen M Power Modele. 
+				Wenn Sie also ein hochwertiges Auto mieten möchten, in Deutschland oder weltweit, sind Sie bei uns genau richtig.</P>
+			</div>
+		</main>	
+		<footer id="footer">
+					<p>copyright &copy; 2018. Ante Karačić &trade;</p>
+		</footer>
+	</body>
+</html>
+
+

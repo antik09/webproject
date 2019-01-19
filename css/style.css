@@ -1,0 +1,300 @@
+body{
+  height:100%;
+  padding: 0;
+  margin: 0;
+  }
+ 
+#header{
+  font-family: 'Russo One', sans-serif;
+  background-color: #000000;
+  position: relative;
+  }
+  
+  #header a:hover{
+    color: #1a1aff;
+	}
+	
+    #header nav > ul{
+      display: inline-block;
+	  }
+	  
+      #header nav > ul > li{
+        padding: 0px 20px 0px 0px;
+        display: inline;
+        }
+    
+        #header nav > ul > li  a{
+          color: white;
+          font-size: 1.25rem;
+          text-decoration: none;   
+          }
+.imageBanner{
+	width: 30%;
+	float: right;
+	padding: 0px 20px 0px 0px;
+	}
+
+#footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	color: white;
+	font-size: 0.9375rem;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	padding-top: 12px;
+	bottom: 0;
+	}
+	
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	color: white;
+	font-size: 0.9375rem;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	padding-top: 12px;
+	bottom: 0;
+	position: absolute;
+	}
+
+#main{
+	font-family: 'Yantramanav', sans-serif;
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+			
+	.h1Index{
+		font-family: 'Russo One', sans-serif;
+		text-align: center;
+		}
+	
+	.hIndex{
+		font-family: 'Russo One', sans-serif;
+		text-align: left;
+		}
+
+	.hAnfrage{
+		font-family: 'Russo One', sans-serif;
+		}
+	
+	.divImage{
+		width: 30%;
+		float: left;
+		}
+	.divImage1{
+		display: none;
+		}
+	
+	.ImageAuto{
+		width: 200px;
+		float: left;
+		padding: 10px 20px 10px 0px;
+		}
+	
+	.divAnfrage{
+		padding: 40px 0px 0px 0px;
+		}
+
+.imageSelect{
+	width: 100%;
+	}
+		
+.nameR{
+	font-family: 'Russo One', sans-serif;
+	text-align:right;
+	}
+
+.abmeldenR{
+	color:black;
+	text-decoration: none;
+	}
+		
+#form{
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 0.9375rem;
+	}
+
+/* Slideshow*/
+
+.mySlides{
+	display: none;
+	}
+
+.slideshow-container {
+	max-width: 1500px;
+	position: relative;
+	margin: auto;
+}
+
+.dot{
+    display: inline-block;
+    transition: background-color 0.6s ease;
+	}
+
+/* Fading animation */
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+		from{
+			opacity: .4
+			} 
+		to {
+			opacity: 1
+			}
+	}
+
+	@keyframes fade{
+		from{
+			opacity: .4
+			} 
+		to{
+			opacity: 1
+			}
+	}
+	
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	}
+	
+input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+	}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+	}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+	}
+
+input[type=reset] {
+    background-color: #ff1a1a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+
+input[name=rechnen]:hover {
+    background-color: #0000cc;
+	}
+
+input[name=rechnen] {
+    background-color: #0000e6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+
+input[type=reset]:hover {
+    background-color: #e60000;
+	}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+	}
+
+.col-75 {
+    float: left;
+    width: 73%;
+    margin-top: 6px;
+	}
+
+.col-78 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+	}
+	
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+	}
+
+.sub_res{
+	text-align: right;
+	padding: 10px 10px 0px 0px;
+	}
+
+	
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    resize: vertical;
+	}
+	
+.grandParentContaniner{
+	display:table;
+	max-width:49%; 
+	height:100%;
+	margin: 0 auto;
+	}
+
+.parentContainer{
+	display:table-cell;
+	vertical-align:middle;
+	}
+
+@media only screen and (max-width: 680px) {
+    .divImage{
+        display: none;
+    }
+	.divImage1{
+		display: block;
+		}
+	.col-25, .col-75 .col-78{
+		width: 90%;
+        margin-top: 0;
+		}
+	input[type=submit]{
+		width: 67%;
+        margin-top: 0;
+		}
+	}
+
